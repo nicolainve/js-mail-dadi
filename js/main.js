@@ -1,4 +1,6 @@
-// ESERCIZIO MAIL
+/*
+ESERCIZIO MAIL
+*/
 
 var mailList = ['mariorossi@mail.com','johnappleseed@mail.com', 'johndoe@mail.com'];
 
@@ -14,18 +16,20 @@ for (var i = 0; i < mailList.length; i++) {
   }
 }
 
-var message;
+var message1;
 
 if (mailFound == true) {
-  message = 'Inserisci la password';
+  message1 = 'Inserisci la password per ' + input;
 } else {
-  message = 'Mail non presente';
+  message1 = 'La mail ' + input + ' non è stata trovata';
 }
 
-document.getElementById('message1').innerHTML = message;
+document.getElementById('message1').innerHTML = message1;
 
 
-// ESERCIZIO DADI
+/*
+ESERCIZIO DATI
+*/
 
 var nUser = Math.floor(Math.random() * 6) + 1;
 
@@ -42,7 +46,7 @@ if (nUser > nComputer) {
 } else if (nUser < nComputer) {
   message2 = 'Hai perso, ritenta la fortuna!';
 } else {
-  message2 = 'Parità, ritira.';
+  message2 = 'Parità, ritira il dado.';
 }
 
 document.getElementById('message2').innerHTML = message2;
