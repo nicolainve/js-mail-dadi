@@ -19,9 +19,9 @@ for (var i = 0; i < mailList.length; i++) {
 var message1;
 
 if (mailFound == true) {
-  message1 = 'Inserisci la password per ' + input;
+  message1 = 'Inserisci la password per <span>' + input + '</span>';
 } else {
-  message1 = 'La mail ' + input + ' non è stata trovata';
+  message1 = 'La mail <span>' + input + '</span> non è stata trovata';
 }
 
 document.getElementById('message1').innerHTML = message1;

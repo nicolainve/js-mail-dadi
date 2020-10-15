@@ -37,6 +37,14 @@ section {
     background: lightblue;
 }
 
+.mail h2 {
+    font-weight: 500;
+}
+
+.mail span {
+    color: red;
+}
+
 .dadi {
     background: lightgreen;
 }
